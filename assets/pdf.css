@@ -1,0 +1,20 @@
+@page {
+  size: A4; margin: 19mm 19mm 20mm;
+  @bottom-left { content: "Czech Cubing Association · pracovní návrh"; font: 8pt "Liberation Sans", sans-serif; color: #666; }
+  @bottom-right { content: counter(page) " / " counter(pages); font: 8pt "Liberation Sans", sans-serif; color: #666; }
+}
+body { font-family: "Liberation Sans", "DejaVu Sans", sans-serif; font-size: 10.5pt; line-height: 1.42; color: #111; }
+.organization { font-size: 9pt; color: #555; margin-bottom: 7mm; }
+h1 { font-size: 21pt; line-height: 1.15; margin: 0 0 2mm; }
+.subtitle { font-size: 11pt; margin: 0 0 5mm; color: #555; }
+.metadata { border-top: 1px solid #bbb; border-bottom: 1px solid #bbb; padding: 3mm 0; margin: 0 0 6mm; font-size: 9pt; line-height: 1.6; }
+.notice { font-size: 9pt; margin-bottom: 6mm; }
+h2 { font-size: 14pt; margin: 6mm 0 2mm; break-after: avoid; }
+h3 { font-size: 11pt; break-after: avoid; }
+p { margin: 0 0 3mm; orphans: 3; widows: 3; }
+a { color: #111; text-decoration: underline; overflow-wrap: anywhere; }
+ul { padding-left: 6mm; }
+li { margin-bottom: 1.5mm; }
+table { border-collapse: collapse; width: 100%; font-size: 9pt; }
+th, td { border-bottom: 1px solid #ccc; padding: 2mm; text-align: left; vertical-align: top; }
+th { background: #f3f3f3; }

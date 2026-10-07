@@ -1,0 +1,2 @@
+WeasyPrint==70.0
+PyYAML==6.0.3
